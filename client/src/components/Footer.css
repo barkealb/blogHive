@@ -1,0 +1,24 @@
+.footer-wrapper {
+    padding: 4rem 4rem 8rem 4rem;
+    text-align: left;
+  }
+
+  #basic-navbar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ml-auto  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mx-3 {
+    color: black;
+  }
+
+  .footer-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }

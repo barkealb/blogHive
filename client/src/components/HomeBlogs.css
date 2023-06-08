@@ -1,0 +1,176 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1fr 1fr;
+    grid-template-rows: 1fr 0.88fr 0.48fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 5rem;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+    /* flex: 1; */
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-top: 0;
+    text-align: left;
+  }
+  
+  .card-body {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  
+  .card-1 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .card-1 img {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .card-2 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .card-2 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .card-3 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .card-3 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .card-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .card-4 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .card-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .card-5 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .card-6 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .card-6 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .card-7 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .card-7 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .card-8 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .card-8 img{
+    flex: none;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .card-9 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .card-9 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .card-10 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .card-10 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .card-11 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .card-11 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  .card-12 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .card-12 img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  
+  

@@ -1,0 +1,30 @@
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar a:hover {
+    color: bisque;
+  }
+
+.bg-myBlack {
+    background-color: black;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 2rem;
+    width: 100%;  
+}
+
+.nav-container {
+    width: 100%;
+    padding: 1rem;
+}
+
+.nav-row {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
